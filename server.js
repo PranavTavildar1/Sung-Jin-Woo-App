@@ -777,10 +777,12 @@ cron.schedule('0 0 * * *', () => {
   console.log('Daily quests reset');
 });
 
-// Serve React app
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
-});
+// Serve React app (only in production)
+if (process.env.NODE_ENV === 'production') {
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+  });
+}
 
 app.listen(PORT, () => {
   console.log(`Sung Jin Woo App server running on port ${PORT}`);

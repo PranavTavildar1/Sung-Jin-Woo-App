@@ -7,7 +7,6 @@ import {
   Box,
   Chip,
   Avatar,
-  Paper,
   LinearProgress,
 } from '@mui/material';
 import {

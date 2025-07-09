@@ -14,7 +14,6 @@ import {
 import {
   Assignment as QuestIcon,
   CheckCircle as CompleteIcon,
-  RadioButtonUnchecked as IncompleteIcon,
 } from '@mui/icons-material';
 import { apiService, skillCategories } from '../utils/userUtils';
 

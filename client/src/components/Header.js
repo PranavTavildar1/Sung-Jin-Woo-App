@@ -8,7 +8,6 @@ import {
   Button,
   Chip,
   Avatar,
-  LinearProgress,
 } from '@mui/material';
 import {
   Home as HomeIcon,

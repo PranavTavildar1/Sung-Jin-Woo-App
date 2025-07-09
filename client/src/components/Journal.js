@@ -11,7 +11,6 @@ import {
   Paper,
   LinearProgress,
   Alert,
-  IconButton,
 } from '@mui/material';
 import {
   Mic as MicIcon,
