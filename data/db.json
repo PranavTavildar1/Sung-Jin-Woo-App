@@ -57,9 +57,94 @@
       "journalEntries": [],
       "createdAt": "2025-07-08T03:50:01.971Z",
       "lastActive": "2025-07-08T03:50:01.971Z"
+    },
+    "user_7bvmqv85c": {
+      "id": "user_7bvmqv85c",
+      "skills": {
+        "communication": {
+          "level": 1,
+          "xp": 0,
+          "totalXP": 0,
+          "lastLevelUp": "2025-07-08T19:05:54.809Z"
+        },
+        "leadership": {
+          "level": 1,
+          "xp": 0,
+          "totalXP": 0,
+          "lastLevelUp": "2025-07-08T19:05:54.809Z"
+        },
+        "creativity": {
+          "level": 1,
+          "xp": 0,
+          "totalXP": 0,
+          "lastLevelUp": "2025-07-08T19:05:54.810Z"
+        },
+        "fitness": {
+          "level": 1,
+          "xp": 0,
+          "totalXP": 0,
+          "lastLevelUp": "2025-07-08T19:05:54.810Z"
+        },
+        "learning": {
+          "level": 1,
+          "xp": 0,
+          "totalXP": 0,
+          "lastLevelUp": "2025-07-08T19:05:54.810Z"
+        },
+        "productivity": {
+          "level": 1,
+          "xp": 0,
+          "totalXP": 0,
+          "lastLevelUp": "2025-07-08T19:05:54.810Z"
+        },
+        "emotional_intelligence": {
+          "level": 1,
+          "xp": 0,
+          "totalXP": 0,
+          "lastLevelUp": "2025-07-08T19:05:54.810Z"
+        },
+        "financial": {
+          "level": 1,
+          "xp": 0,
+          "totalXP": 0,
+          "lastLevelUp": "2025-07-08T19:05:54.810Z"
+        }
+      },
+      "totalXP": 0,
+      "level": 1,
+      "journalEntries": [],
+      "createdAt": "2025-07-08T19:05:54.810Z",
+      "lastActive": "2025-07-08T19:05:54.810Z"
     }
   },
-  "dailyQuests": {},
+  "dailyQuests": {
+    "user_7bvmqv85c": {
+      "date": "Tue Jul 08 2025",
+      "quests": [
+        {
+          "id": "ebf53ff6-7614-4891-9026-1f190d25b5b0",
+          "title": "Brainstorm 10 new ideas",
+          "skill": "creativity",
+          "xpReward": 50,
+          "completed": false
+        },
+        {
+          "id": "dd65cf83-49fe-4aaa-8389-a2000490296d",
+          "title": "Learn something new online",
+          "skill": "learning",
+          "xpReward": 50,
+          "completed": false
+        },
+        {
+          "id": "72675eaf-2f11-4874-ad06-70fc03da3ac3",
+          "title": "Brainstorm 10 new ideas",
+          "skill": "creativity",
+          "xpReward": 50,
+          "completed": false
+        }
+      ]
+    }
+  },
   "rewards": {},
   "system": {
     "lastQuestReset": "2025-07-08T04:00:00.172Z",
